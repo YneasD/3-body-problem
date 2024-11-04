@@ -47,7 +47,7 @@ Contributing
 Contributions are welcome! Please feel free to submit a pull request or report issues you encounter.
 
 License
-This project is licensed under the MIT License. See the LICENSE file for details.
+This project is licensed under the GNU General Public License v3.0 License. See the LICENSE file for details.
 
 Acknowledgements
 The simulation is based on the classical mechanics concepts and numerical methods.
