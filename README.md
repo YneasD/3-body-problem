@@ -1,5 +1,15 @@
 # Three-Body Problem Simulation
 
+## Bug
+
+There is a bug with the raycasting in the raycasting file:
+The z-axis rotates unexpectedly when only the x-axis and y-axis is supposed to rotate.
+This occurs during the rendering of 3D axes in the _3d_axis class and in raycast_transform
+So when, in the simulation, you turn head right or left, it's like you're in a plane, it uses roll instead of yaw but only if pitch is not equal to k * pi (k belonging to the integers)
+
+Look at the comments of the file at the bottom, where `if __name__=="__main__":` is written
+I made some tests, you can run the code
+
 ## Overview
 
 This project aims to simulate the three-body problem in classical mechanics, which involves predicting the motion of three celestial bodies interacting with each other through gravitational forces. This simulation visualizes the complex dynamics that arise from the gravitational interactions between the bodies.
