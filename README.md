@@ -35,19 +35,20 @@ To run this simulation, you will need:
 ### Installation
 
 1. Clone the repository:
-   ```bash
-   git clone <your-github-repo-link>
-   cd <your-repo-name>
-Install the required libraries:
-bash
-Copier le code
-pip install numpy matplotlib pygame
-Running the Simulation
-To run the simulation, execute the following command:
-
-bash
-Copier le code
-python main.py
+   
+   `git clone <your-github-repo-link>`
+   
+   `cd <your-repo-name>`
+   
+2. Install the required libraries:
+   
+   `pip install numpy matplotlib pygame`
+   
+3. Running the Simulation
+   To run the simulation, execute the following command:
+   
+   `python main.py`
+   
 Adjust the parameters in the code as needed to explore different scenarios of the three-body problem.
 
 Code Structure
