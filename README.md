@@ -52,13 +52,3 @@ This project is licensed under the GNU General Public License v3.0 License. See 
 
 Acknowledgements
 The simulation is based on the classical mechanics concepts and numerical methods.
-vbnet
-Copier le code
-
-### Instructions to Customize
-1. Replace `<your-github-repo-link>` with your actual GitHub repository link.
-2. Fill in `<your-repo-name>` with the name of your repository.
-3. Adjust the **Code Structure** section according to your actual file structure.
-4. Add any additional information about the project that you think would be helpful to users or contributors.
-
-Let me know if you need any more adjustments!
